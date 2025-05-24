@@ -13,8 +13,10 @@ body {
   min-height: 100vh;
 }
 
+
 .quiz-container {
   background: #ffffff;
+  background-color: rgba(255, 255, 255, 1.0);
   border-radius: 20px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
   padding: 40px;
@@ -45,6 +47,11 @@ button {
 button:hover, .btn-option:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#Enf {
+  margin-top: 10%;
+
 }
 
 #start-btn, #restart-btn {
