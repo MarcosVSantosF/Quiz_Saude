@@ -173,7 +173,59 @@ const quizData = [
         "Fazer campanhas publicitárias"
       ],
       answer: 2
-    }
+    },
+    {
+      question: "Para que servem as vacinas?",
+      options: [
+        "Curar doenças",
+        "Prevenir doenças",
+        "Tratar feridas",
+        "Melhorar a alimentação"
+      ],
+      answer: 1
+    },
+    {
+      question: "Qual é a via mais comum de aplicação das vacinas?",
+      options: [
+        "Oral",
+        "Intravenosa",
+        "Intramuscular",
+        "Retal"
+      ],
+      answer: 2
+    },
+    {
+      question: "Qual dessas doenças é evitada com vacina?",
+      options: [
+        "Diabetes",
+        "Hipertensão",
+        "Sarampo",
+        "Câncer"
+      ],
+      answer: 2
+    },
+    {
+      question: "A vacinação é importante porque:",
+      options: [
+        "Garante antibióticos de graça",
+        "Ajuda a imunidade do corpo",
+        "Substitui o uso de medicamentos",
+        "Evita ir ao médico"
+      ],
+      answer: 1
+    },
+    {
+      question: "Quem oferece as vacinas no Brasil de forma gratuita?",
+      options: [
+        "Hospitais particulares",
+        "Unidades Básicas de Saúde (UBS) pelo SUS",
+        "Farmácias privadas",
+        "Escolas"
+      ],
+      answer: 1
+    },
+
+
 
   ];
   
