@@ -1,0 +1,135 @@
+/* Paleta de cores: verde claro, azul claro, branco, cinza claro, azul escuro */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+  background-color: #dcedc1;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.quiz-container {
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  width: 90%;
+  max-width: 600px;
+  animation: fadeInContainer 0.8s ease-in-out;
+}
+
+h2 {
+  color: #34495e;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+#start-screen p {
+  font-size: 1rem;
+  color: #555555;
+  margin-bottom: 20px;
+}
+
+button {
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover, .btn-option:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#start-btn, #restart-btn {
+  background-color: #34495e;
+  color: #ffffff;
+  padding: 12px 24px;
+}
+
+#start-btn:active, #restart-btn:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+#quiz-screen p#question-number {
+  font-size: 0.9rem;
+  color: #777777;
+  margin-bottom: 5px;
+}
+
+#quiz-screen p#question-text {
+  font-size: 1.2rem;
+  color: #34495e;
+  margin-bottom: 20px;
+  animation: fadeInText 0.6s ease-in;
+}
+
+.btn-option {
+  background-color: #f0f0f0;
+  border: none;
+  color: #34495e;
+  padding: 14px 20px;
+  font-size: 1rem;
+  margin-bottom: 12px;
+  border-radius: 12px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-option.btn-outline-primary {
+  border: 2px solid #a8e6cf;
+  background-color: #ffffff;
+  color: #34495e;
+}
+
+.btn-option.btn-success {
+  background-color: #28a745;
+  border-color:  #28a745;
+  color: #ffffff;
+}
+
+.btn-option.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+  color: #ffffff;
+}
+
+.btn-option:hover {
+  background-color: #a8e6cf;
+  color: #ffffff;
+}
+
+#next-btn {
+  background-color: #34495e;
+  color: #ffffff;
+  padding: 10px 20px;
+}
+
+#next-btn:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+#result-screen p#final-score {
+  font-size: 1.5rem;
+  color: #34495e;
+  margin-bottom: 20px;
+  animation: fadeInText 0.6s ease-in;
+}
+
+/* Animações */
+@keyframes fadeInContainer {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes fadeInText {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
